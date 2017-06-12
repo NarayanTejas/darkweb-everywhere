@@ -1,11 +1,53 @@
-<ruleset name="TorProject Onion" default_off="See https://trac.torproject.org/projects/tor/ticket/11567">
-	<target host="torproject.org" />
-	<target host="www.torproject.org" />
-	<target host="archive.torproject.org" />
-	<target host="media.torproject.org" />
-	<target host="trac.torproject.org" />
-	<rule from="^https?://trac\.torproject\.org/" to="http://vwp5zrdfwmw4avcq.onion/" />
-	<rule from="^https?://media\.torproject\.org/" to="http://p3igkncehackjtib.onion/" />
-	<rule from="^https?://archive\.torproject\.org/" to="http://j6im4v42ur6dpic3.onion/" />
-	<rule from="^https?://(www\.)?torproject\.org/" to="http://idnxcnkne4qt76tg.onion/" />
+<ruleset name="Tor Project Onion">
+  <target host="torproject.org" />
+  <target host="*.torproject.org" />
+  <rule from="^https?://archive.torproject.org/" to="http://yjuwkcxlgo7f7o6s.onion/"/>
+  <rule from="^https?://atlas.testnet.torproject.org/" to="http://2d5quh2deowe4kpd.onion/"/>
+  <rule from="^https?://atlas.torproject.org/" to="http://52g5y5karruvc7bz.onion/"/>
+  <rule from="^https?://aus1.torproject.org/" to="http://x3nelbld33llasqv.onion/"/>
+  <rule from="^https?://aus2.torproject.org/" to="http://vijs2fmpd72nbqok.onion/"/>
+  <rule from="^https?://bridges.torproject.org/" to="http://z5tfsnikzulwicxs.onion/"/>
+  <rule from="^https?://cloud.torproject.org/" to="http://icxe4yp32mq6gm6n.onion/"/>
+  <rule from="^https?://collector.testnet.torproject.org/" to="http://vhbbidwvzwhahsrg.onion/"/>
+  <rule from="^https?://collector.torproject.org/" to="http://qigcb4g4xxbh5ho6.onion/"/>
+  <rule from="^https?://compass.torproject.org/" to="http://lwygejoa6fm26eef.onion/"/>
+  <rule from="^https?://consensus-health.torproject.org/" to="http://tgnv2pssfumdedyw.onion/"/>
+  <rule from="^https?://crm.torproject.org/" to="http://sgs4q3dzv74f723x.onion/"/>
+  <rule from="^https?://deb.torproject.org/" to="http://sdscoq7snqtznauu.onion/"/>
+  <rule from="^https?://dist.torproject.org/" to="http://rqef5a5mebgq46y5.onion/"/>
+  <rule from="^https?://donate.torproject.org/" to="http://bjk3o77eebkax2ud.onion/"/>
+  <rule from="^https?://exonerator.torproject.org/" to="http://zfu7x4fuagirknhb.onion/"/>
+  <rule from="^https?://extra.torproject.org/" to="http://klbl4glo2btuwyok.onion/"/>
+  <rule from="^https?://gettor.torproject.org/" to="http://tngjm3owsslo3wgo.onion/"/>
+  <rule from="^https?://git.torproject.org/" to="http://dccbbv6cooddgcrq.onion/"/>
+  <rule from="^https?://gitweb.torproject.org/" to="http://jqs44zhtxl2uo6gk.onion/"/>
+  <rule from="^https?://health.testnet.torproject.org/" to="http://fr6scuhdp5dqvy7d.onion/"/>
+  <rule from="^https?://help.torproject.org/" to="http://54nujbl4qohb5qdp.onion/"/>
+  <rule from="^https?://jenkins.torproject.org/" to="http://f7lqb5oicvsahone.onion/"/>
+  <rule from="^https?://media.torproject.org/" to="http://n46o4uxsej2icp5l.onion/"/>
+  <rule from="^https?://metrics.torproject.org/" to="http://rougmnvswfsmd4dq.onion/"/>
+  <rule from="^https?://munin.torproject.org/" to="http://hhr6fex2giwmolct.onion/"/>
+  <rule from="^https?://nagios.torproject.org/" to="http://kakxayzmcc3zeomu.onion/"/>
+  <rule from="^https?://nyx.torproject.org/" to="http://ebxqgaz3dwywcoxl.onion/"/>
+  <rule from="^https?://onion.torproject.org/" to="http://yz7lpwfhhzcdyc5y.onion/"/>
+  <rule from="^https?://onionoo.torproject.org/" to="http://tgel7v4rpcllsrk2.onion/"/>
+  <rule from="^https?://onionperf.torproject.org/" to="http://llhb3u5h3q66ha62.onion/"/>
+  <rule from="^https?://ooni.torproject.org/" to="http://fqnqc7zix2wblwex.onion/"/>
+  <rule from="^https?://people.torproject.org/" to="http://sbe5fi5cka5l3fqe.onion/"/>
+  <rule from="^https?://research.torproject.org/" to="http://wcgqzqyfi7a6iu62.onion/"/>
+  <rule from="^https?://spec.torproject.org/" to="http://s2bweojt5vg52e5i.onion/"/>
+  <rule from="^https?://staging.crm.torproject.org/" to="http://swnwd5bhvjk4dd5o.onion/"/>
+  <rule from="^https?://staging.donate.torproject.org/" to="http://cvtwbn7mgxki7gvc.onion/"/>
+  <rule from="^https?://stem.torproject.org/" to="http://vt5hknv6sblkgf22.onion/"/>
+  <rule from="^https?://tb-manual.torproject.org/" to="http://dgvdmophvhunawds.onion/"/>
+  <rule from="^https?://test-data.tbb.torproject.org/" to="http://fylvgu5r6gcdadeo.onion/"/>
+  <rule from="^https?://test.crm.torproject.org/" to="http://abp7hndzgazze2wy.onion/"/>
+  <rule from="^https?://test.donate.torproject.org/" to="http://p73stlm5nhogxw4w.onion/"/>
+  <rule from="^https?://testnet.torproject.org/" to="http://bo7uextohjpuqvrh.onion/"/>
+  <rule from="^https?://trac.torproject.org/" to="http://ea5faa5po25cf7fb.onion/"/>
+  <rule from="^https?://webstats.torproject.org/" to="http://gbinixxw7gnsh5jr.onion/"/>
+  <rule from="^https?://www-staging.torproject.org/" to="http://krkzagd5yo4bvypt.onion/"/>
+  <rule from="^https?://(www.)?torproject.org/" to="http://expyuzz4wqqyqhjn.onion/"/>
 </ruleset>
+
+<!-- Documentation: https://onion.torproject.org/ -->
